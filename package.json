@@ -1,0 +1,16 @@
+{
+  "name": "Angular-Search-Machine-",
+  "version": "0.0.1",
+
+"description": "AngularJS Dynamic Searching",
+"main": "server.js",
+"author": "Igor",
+"dependencies": {
+
+"express": "^4.11.2",
+"mongoose": "^3.8.21",
+"path": "^0.11.14",
+  "ejs": "^2.2.4",
+  "html": "^0.0.7"
+}
+}
