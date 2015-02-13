@@ -49,14 +49,14 @@
 
     <tbody>
 
-    <tr ng-repeat="hf in ResultOfFilteredGeojson = (FilteredGeojson(data_table, source))">
-        <td>{{ hf.properties.NAME }}</td>
-        <td>{{ hf.properties.ADDRESS }}</td>
-        <td>{{ hf.properties.CITY }}</td>
-        <td>{{ hf.properties.ZIP }}</td>
-        <td>{{ hf.properties.COUNTY }}</td>
-        <td>{{ hf.properties.LOCALNAME }}</td>
-        <td>{{ hf.geometry.coordinates }}</td>
+    <tr ng-repeat="x in ResultOfFilteredGeojson = (FilteredGeojson(data_table, source))">
+        <td>{{ x.properties.NAME }}</td>
+        <td>{{ x.properties.ADDRESS }}</td>
+        <td>{{ x.properties.CITY }}</td>
+        <td>{{ x.properties.ZIP }}</td>
+        <td>{{ x.properties.COUNTY }}</td>
+        <td>{{ x.properties.LOCALNAME }}</td>
+        <td>{{ x.geometry.coordinates }}</td>
 
     </tr>
     </tbody>
