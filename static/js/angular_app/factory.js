@@ -8,7 +8,7 @@
 angular
     .module('App')
     .factory('Storage', function ($resource) {
-    return $resource("/geo", {}, {
+    return $resource("/json/json.json", {}, {
         get: {
             method: "GET",
             cache: true,
